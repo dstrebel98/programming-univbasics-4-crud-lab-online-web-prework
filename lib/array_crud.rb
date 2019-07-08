@@ -3,19 +3,21 @@ def create_an_empty_array
 end
 
 def create_an_array
-  
+ [red, blue, yellow, orange]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+ [red, blue, yellow, orange] 
+ << purple
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  [red, blue, yellow, orange]
+  .unshift green
 end
 
 def remove_element_from_end_of_array(array)
-  
+  [red,]
 end
 
 def remove_element_from_start_of_array(array)
